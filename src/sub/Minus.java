@@ -13,6 +13,6 @@ public class Minus implements Calc {
 
     @Override
     public String calc(String a, String b) {
-        return "no";
+        throw new IllegalArgumentException("Not with strings!");
     }
 }
