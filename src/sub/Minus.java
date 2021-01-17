@@ -12,7 +12,7 @@ public class Minus implements Calc {
     }
 
     @Override
-    public String calc(String a, String b) {
-        throw new IllegalArgumentException("Not with strings!");
+    public String calc(String a, String b) throws Exception{
+        throw new IllegalArgumentException("No");
     }
 }

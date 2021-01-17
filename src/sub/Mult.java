@@ -12,7 +12,7 @@ public class Mult implements Calc {
     }
 
     @Override
-    public String calc(String a, String b) {
+    public String calc(String a, String b) throws Exception{
         throw new IllegalArgumentException("Not with strings!");
     }
 }

@@ -8,7 +8,7 @@ public class Calculator {
     public double calculate(double a, double b, int i){
         return operation[i].calc(a, b);
     }
-    public String calculate(String a, String b, int i){
+    public String calculate(String a, String b, int i) throws Exception{
         return operation[i].calc(a, b);
     }
 
